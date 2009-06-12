@@ -45,7 +45,7 @@ Author URI: http://electricpulp.com/
 		padding:0;
 		margin:0 0 1.5em 0;
 		height:21px;
-		background:url(/images/bck-head.gif) repeat-x top left;
+		background:transparent;
 	}
 	#header a, #header a:link, #header a:active, #header a:visited {
 		color:#868686;
