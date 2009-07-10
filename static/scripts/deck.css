@@ -1,4 +1,4 @@
-/*  
+/*
 Description: Alltop
 Author: Electric Pulp
 Author URI: http://electricpulp.com/
@@ -168,7 +168,7 @@ Author URI: http://electricpulp.com/
 	}
 	#ack-box li {
 		display:none;
-	} 
+	}
 	#ack-box li.categories {
 		display:block;
 	}
@@ -194,7 +194,7 @@ Author URI: http://electricpulp.com/
 		border-top:none;
 		padding:3px 2px;
 	}
-	#titlebar ul#ack-box.show-urls li, 
+	#titlebar ul#ack-box.show-urls li,
 	#titlebar ul#ack-box.show-urls li.categories {
 		display:inline;
 		background:none;
@@ -252,6 +252,7 @@ Author URI: http://electricpulp.com/
 		color:#717171;
 		text-transform:uppercase;
 		border-bottom:1px solid #bebebe;
+
 	}
 	#headlines li.description {
 		font-size:.84em;
@@ -262,9 +263,9 @@ Author URI: http://electricpulp.com/
 		font-size:1.1em;
 		padding:0 0 2em .5em;
 	}
-	ul.sites li a, 
-	ul.sites li a:link, 
-	ul.sites li a:active, 
+	ul.sites li a,
+	ul.sites li a:link,
+	ul.sites li a:active,
 	ul.sites li a:visited {
 		padding:2px 5px;
 	}
@@ -286,7 +287,7 @@ Author URI: http://electricpulp.com/
 		height:0;
 		overflow:hidden;
 	}
-	
+
 /* deck */
 
 ul#deck {
@@ -308,7 +309,7 @@ ul#deck ul {
 p.description {
 	display:none;
 }
-	
+
 /* miscellaneous */
 
 	.clear {
@@ -336,18 +337,18 @@ p.description {
 		display:block;
 	}
 	h3.subtitles {
-	
+
 		color:#545454;
 		margin-left:2px;
 		clear:left;
-	
+
 	}
 	.pushed {
 		bottom:-4em;
 	}
 
 	/* Tool tips */
-    
+
 	.tool-tip {
 		color: #333;
 		width: 200px;
@@ -373,12 +374,12 @@ p.description {
 		padding: 0 15px 15px 15px;
 		background: #f0f0f0;
 	}
-    
+
 	.clearfix:after {
-	    content: "."; 
-	    display: block; 
-	    height: 0; 
-	    clear: both; 
+	    content: ".";
+	    display: block;
+	    height: 0;
+	    clear: both;
 	    visibility: hidden;
 	}
 	.clearfix {display: inline-block;}
