@@ -14,18 +14,9 @@
     <script src="scripts/menu.js"></script>
     
     <div class="container ">
+        {% block content %}
         
-        <h2 class="category">Posters</h2>
-            <ul class="list">
-                <li >Siddharth Mitra, Mayank Agrawal, Amit Yadav, Niklas Carlsson, Derek Eager, and Anirban Mahanti, <strong>Characterizing Web-based Video Sharing Workloads</strong>, <i>Proc. International World Wide Web Conference (WWW '09)</i>, Madrid, Spain, Apr. 2009. [<a href="research/www09.pdf">pdf</a>][<a href="research/www09.bib">bib</a>]</li>
-            </ul>
-        
-        
-        <h2 class="category">Dissertations and Reports</h2> 
-            <ul>
-                <li >Siddharth Mitra, <strong>Characterising Online Video Sharing and its Dynamics</strong>, M.Tech Thesis, Department of Computer Science and Engineering, Indian Institute of Technology, Jul. 2009. [<a href="research/mitra_mtechThesis.pdf">pdf</a>][<a href="research/mitra_mtechThesis.bib">bib</a>]</li>            
-            </ul>
-
+        {% endblock %}
     </div>
     
     
@@ -34,3 +25,4 @@
     </script>
 </body>
 </html>
+
