@@ -24,3 +24,7 @@ handlers:
 
 - url: /
   static_dir: static
+
+- url: /robots.txt
+  static_files: static/robots.txt
+  
