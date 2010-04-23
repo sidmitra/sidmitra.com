@@ -18,13 +18,13 @@ skip_files:
 - ^(.*/)?thumbs.db
 
 handlers:
+- url: /robots\.txt
+  static_files: static/robots.txt
+  upload: static/robots.txt
+  
 - url: (.*)/
   static_files: static/index.html
   upload: static/index.html
 
 - url: /
   static_dir: static
-
-- url: /robots.txt
-  static_files: static/robots.txt
-  
