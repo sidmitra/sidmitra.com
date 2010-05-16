@@ -6,3 +6,4 @@
 # *~
 *.pyc
 Thumbs.db
+timesheets/*

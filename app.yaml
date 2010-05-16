@@ -22,9 +22,14 @@ handlers:
   static_files: static/robots.txt
   upload: static/robots.txt
   
+- url: /timesheets/
+  static_dir: timesheets
+
 - url: (.*)/
   static_files: static/index.html
   upload: static/index.html
 
 - url: /
   static_dir: static
+  
+
