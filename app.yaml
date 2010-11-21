@@ -24,6 +24,7 @@ handlers:
   
 - url: /timesheets/
   static_dir: timesheets
+  mime_type: text/html
 
 - url: (.*)/
   static_files: static/index.html

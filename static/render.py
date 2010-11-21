@@ -1,10 +1,10 @@
 from jinja2 import Environment, Template, FileSystemLoader
-pages = ['index','books','research']
+pages = ['index','books','research', 'portfolio']
 environment_name = 'sidm'
 
 def render(page):
     env = Environment(loader=FileSystemLoader('.'))
-    template = env.get_template(page+".templ")
+    template = env.get_template("_"+page+".html")
     context={}
     fout = open(page+'.html','w')
     fout.write(template.render())
