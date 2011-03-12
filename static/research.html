@@ -8,7 +8,7 @@
        <link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection">
     <![endif]-->
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection"/>
-    
+    <link rel="stylesheet" href="css/tipTip.css" type="text/css" media="screen, projection"/>
 </head>
 
 <body>
@@ -30,16 +30,15 @@
     </div>
     
     <div id="titlebar">
-        <div id="title-content">
-        
-        <h2>&nbsp;&nbsp;&nbsp;&nbsp; 
-            <a title="" href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp; 
-            <a class='hover-title' title="Some examples of my work" href="portfolio.html">Portfolio</a> &nbsp;&nbsp;&nbsp;&nbsp; 
-            <a class='hover-title' title="My publications and posters" href="research.html">Research</a> &nbsp;&nbsp;&nbsp;&nbsp; 
-            <a class='hover-title' title="My Github page" href="http://github.com/sidmitra">Projects</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a class='hover-title' title="My resum&eacute;  in a PDF format" href="resume.pdf">Resum&eacute; </a> &nbsp;&nbsp;&nbsp;&nbsp; 
-            <a class='hover-title'  title="Things i'm reading" href="books.html">Reading List</a>
-        </h2>
+        <div id="title-content" class="hover-title">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="Siddharth Mitra" href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="Some examples of my work" href="portfolio.html">Portfolio</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="My publications and posters" href="research.html">Research</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="My Github page" href="http://github.com/sidmitra">Projects</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="tip" title="My resum&eacute;  in a PDF format" href="resume.pdf">Resum&eacute; </a> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="Things i'm reading" href="books.html">Reading List</a>
+            </h2>
         </div>
     </div>
     
@@ -47,7 +46,15 @@
 </body>
 
 <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type='text/javascript' src="scripts/jquery.hoverattribute.js"></script>
+<script type='text/javascript' src="scripts/jquery.tipTip.minified.js"></script>
 
-
+<script>
+    $(function(){
+        $(".tip").tipTip({
+            maxWidth: "auto", 
+            //defaultPosition: 'top',
+            delay: 0,
+            });
+    });
+</script>
 </html>

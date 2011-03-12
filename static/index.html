@@ -8,7 +8,7 @@
        <link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection">
     <![endif]-->
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection"/>
-    
+    <link rel="stylesheet" href="css/tipTip.css" type="text/css" media="screen, projection"/>
 </head>
 
 <body>
@@ -40,7 +40,7 @@
         <div class="column span-6 last" >
             <ul class="sites">
             <h2 class="category">Contact</h2>
-            <li class='hover-title'  title="Email is the best way to reach me."><a href="http://www.gmail.com" class="icon icon-gmail"><strong>Gmail</strong></a> - sidmitra.del</li>
+            <li class="tip" title="Email is the best way to reach me."><a href="http://www.gmail.com" class="icon icon-gmail"><strong>Gmail</strong></a> - sidmitra.del</li>
             <li><a href="http://www.google.com/talk" class="icon icon-gtalk"><strong>GTalk</strong></a> - sidmitra.del</li>
             <li><a href="http://www.skype.com" class="icon icon-skype"><strong>Skype</strong></a> - sid_mitra</li>
             <li><a href="http://www.yahoo.com" class="icon icon-yahoo"><strong>Yahoo</strong></a> - s1d_mitra</li>
@@ -69,20 +69,20 @@
         <div class="column span-6">
             <ul class="sites">
             <li><a href="http://del.icio.us/sidmitra" class="icon icon-delicious" rel="me">del.icio.us</a></li>
-            <li><a href="http://www.friendfeed.com/sidmitra" class="icon icon-friendfeed" rel="me">FriendFeed</a></li>
             <li><a href="http://github.com/sidmitra" class="icon icon-github" rel="me">GitHub</a></li>
             <li><a href="http://www.google.com/reader/shared/10836226555270717072" class="icon icon-greader" rel="me">Google Reader</a></li>
             <li><a href="http://stackoverflow.com/users/85512/sidmitra" class="icon icon-stackoverflow" rel="me">Stack Overflow</a></li>
+            <li><a href="http://djangopeople.net/sidmitra/" class="icon icon-django" rel="me">Django People</a></li>
             </ul>
         </div>
     
     
         <div class="column span-6 last">
             <ul class="sites">
+            <li><a href="http://www.friendfeed.com/sidmitra" class="icon icon-friendfeed" rel="me">FriendFeed</a></li>
             <li><a href="http://www.citeulike.org/user/sidmitra" class="icon icon-citeulike" rel="me">CiteULike</a></li>
             <li><a href="http://sortfolio.com/listings/1448-siddharth-mitra" class="icon icon-sortfolio" rel="me">Sortfolio</a></li>
             <li><a href="http://likaholix.com/sidmitra" class="icon icon-likaholix" rel="me">Likaholix</a></li>
-            <li><a href="http://www.orkut.com/Profile.aspx?uid=16240246646782091018" class="icon icon-orkut" rel="me">Orkut</a></li>
             <li><a href="http://reddit.com/user/kovak/" class="icon icon-reddit" rel="me">Reddit</a></li>
             </ul>
         </div>
@@ -90,26 +90,28 @@
         <div class="column span-6 last">
             <ul class="sites">
             <li><a href="http://digg.com/users/kovak" class="icon icon-digg" rel="me">Digg</a></li>
-            <li><a href="http://djangopeople.net/sidmitra/" class="icon icon-django" rel="me">Django People</a></li>
             <li><a href="http://www.flickr.com/photos/86984972@N00/" class="icon icon-flickr" rel="me">Flickr</a></li>
             <li><a href="http://www.technorati.com/people/technorati/kovak" class="icon icon-technorati" rel="me">Technorati</a></li>
             </ul>
+        </div>
+        
+        <div id="stage">
+        <!-- The dot divs are shown here -->
         </div>
     </span>
 
     </div>
     
     <div id="titlebar">
-        <div id="title-content">
-        
-        <h2>&nbsp;&nbsp;&nbsp;&nbsp; 
-            <a title="" href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp; 
-            <a class='hover-title' title="Some examples of my work" href="portfolio.html">Portfolio</a> &nbsp;&nbsp;&nbsp;&nbsp; 
-            <a class='hover-title' title="My publications and posters" href="research.html">Research</a> &nbsp;&nbsp;&nbsp;&nbsp; 
-            <a class='hover-title' title="My Github page" href="http://github.com/sidmitra">Projects</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a class='hover-title' title="My resum&eacute;  in a PDF format" href="resume.pdf">Resum&eacute; </a> &nbsp;&nbsp;&nbsp;&nbsp; 
-            <a class='hover-title'  title="Things i'm reading" href="books.html">Reading List</a>
-        </h2>
+        <div id="title-content" class="hover-title">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="Siddharth Mitra" href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="Some examples of my work" href="portfolio.html">Portfolio</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="My publications and posters" href="research.html">Research</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="My Github page" href="http://github.com/sidmitra">Projects</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="tip" title="My resum&eacute;  in a PDF format" href="resume.pdf">Resum&eacute; </a> &nbsp;&nbsp;&nbsp;&nbsp; 
+                <a class="tip" title="Things i'm reading" href="books.html">Reading List</a>
+            </h2>
         </div>
     </div>
     
@@ -117,38 +119,15 @@
 </body>
 
 <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type='text/javascript' src="scripts/jquery.hoverattribute.js"></script>
+<script type='text/javascript' src="scripts/jquery.tipTip.minified.js"></script>
 
-<script type="text/javascript">
-   jQuery(document).ready(function() {
-        var $heading = $('h1#heading');
-        var orig_text =  $heading.text();
-        var orig_title =  $heading.attr('title');
-       
-        $('.hover-title').live('mouseover', function(){
-            // Reset the earlier animation
-            $heading.trigger('mouseout');
-            $heading.die('mouseout');
-            
-            // Set new title and reset text.
-            $heading.attr('title', $(this).attr("title"));
-            $heading.text(orig_text);
-            
-            $heading.hoverAttribute({
-                attribute: "title",
-                tweenInFrom: "bottom",
+<script>
+    $(function(){
+        $(".tip").tipTip({
+            maxWidth: "auto", 
+            //defaultPosition: 'top',
+            delay: 0,
             });
-            $heading.trigger('mouseover');
-            
-            return false;
-        });
-        
-        $('.hover-title').live('mouseout', function(){
-            $heading.trigger('mouseout');
-            return false;
-        });
     });
 </script>
-
-
 </html>
