@@ -37,9 +37,7 @@ ul.sites li a:hover {color:#4DB930;}
 /** Icons and Buttons **/
 .icon {background-position: 0% 40%; background-repeat: no-repeat; padding:2px 3px 3px 20px; text-decoration:none; z-index:100;}
 .icon-citeulike{background-image: url(../images/citeulike.gif);}
-.icon-cse{background-image: url(../images/cse.gif);}
 .icon-delicious{background-image: url(../images/delicious.gif);}
-.icon-digg{background-image: url(../images/digg.gif);}
 .icon-django{background-image: url(../images/django.gif);}
 .icon-facebook{background-image: url(../images/facebook.gif);}
 .icon-flickr{background-image: url(../images/flickr.gif);}
@@ -47,7 +45,6 @@ ul.sites li a:hover {color:#4DB930;}
 .icon-blogger{background-image: url(../images/blogger.gif);}
 .icon-github{background-image: url(../images/github.gif);}
 .icon-gmail {background-image: url(../images/gmail.gif);}
-.icon-greader{background-image: url(../images/greader.gif);}
 .icon-gtalk{background-image: url(../images/gtalk.gif);}
 .icon-sortfolio{background-image: url(../images/sortfolio.gif);}
 .icon-hn{background-image: url(../images/hn.gif);}
@@ -57,7 +54,6 @@ ul.sites li a:hover {color:#4DB930;}
 .icon-reddit{background-image: url(../images/reddit.gif);}
 .icon-skype{background-image: url(../images/skype.gif);}
 .icon-stackoverflow{background-image: url(../images/stackoverflow.gif);}
-.icon-technorati{background-image: url(../images/technorati.gif);}
 .icon-twitter{background-image: url(../images/twitter.gif);}
 .icon-yahoo{background-image: url(../images/yahoo.gif);}
 .icon-elance{background-image: url(../images/elance.gif);}
