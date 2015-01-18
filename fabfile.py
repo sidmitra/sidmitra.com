@@ -43,9 +43,11 @@ def build():
 
 @task
 def deploy():
+    build()
     local('appcfg.py --oauth2 update build/')
 
 @task
 def serve():
+    build()
     local('dev_appserver.py build/')
 

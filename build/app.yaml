@@ -1,7 +1,8 @@
-application: sidm
+application: sidm-hrd
 version: 1
-runtime: python
+runtime: python27
 api_version: 1
+threadsafe: true
 
 skip_files:
 - ^(.*/)?app\.yaml
@@ -16,16 +17,12 @@ skip_files:
 - ^(.*/)?.*\.bak$
 - ^(.*/)?.*\.templ$
 - ^(.*/)?thumbs.db
-- ^(.*/)?.*vagrant/.*
 
 handlers:
-- url: /robots\.txt
-  static_files: output/robots.txt
-  upload: output/robots.txt
-
-- url: (.*)/
-  static_files: output/index.html
-  upload: output/index.html
-
 - url: /
-  static_dir: output
+  static_files: index.html
+  upload: index.html
+
+- url: /(.*)
+  static_files: \1
+  upload: (.*)
