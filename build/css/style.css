@@ -1,0 +1,64 @@
+/* Globals */
+
+/* Layout */
+html,body {background:url("../images/gridbg.gif") repeat scroll center top white;}
+
+#top-margin {width:920px; margin:100px 0 0 0; padding:0;}
+#titlebar {position:fixed; bottom:4em; width:100%; height:57px; padding:0; /*padding:18px 0 14px 0; */background:#31A01B; left:0; opacity:.9; filter:alpha(opacity=90); z-index:2; }
+#title-content {position:relative; width:980px; margin:0 auto; padding:0; }
+#titlebar h2 {color:#fff; font-size:1em; font-weight:bold; line-height:1em; margin:0; padding:24px 0 0 0; float:right; }
+#titlebar a, #titlebar a:link, #titlebar a:active, #titlebar a:visited {color:#fff; text-decoration:none; font-size:16px; margin-left: 2px; font-family: 'Raleway', arial, serif; }
+#titlebar a:hover {font-weight:bold; cursor: hand;}
+#logo {color:#fff; font-size:1em; float:left !important; margin:20px 10px 0 50px; padding:0; font-family:"Helvetica Neue",Verdana,Arial,Sans-Serif; font-weight:normal;}
+
+/* Custom class/ID */
+.red{color:#EE1D24;}
+.blue{color:#4782AC;}
+.green{color:#4DB930;}
+
+.category{font-size:.9em; letter-spacing:.15em; color:#717171; text-transform:uppercase; border-bottom:1px solid #bebebe;}
+
+#heading{color:#797B7C}
+#intro{font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2",Georgia,Times,serif; font-size:1.3em; margin-bottom:50px;}
+#intro a{color:#4782AC; cursor:pointer; font-weight:bold; text-decoration:none;}
+#intro a:hover{color:#4DB930;}
+blockquote {position: relative; text-indent: 2em;}
+.bqstart, .bqend { font-size: 300%; }
+.bqstart {text-indent: 0; position: absolute; top: -0.2em; left: 0;}
+.bqend { position: absolute; margin-top: -0.2em; text-indent: 0;}
+
+/** Lists **/
+ul.sites{list-style:none;}
+ul.sites li{font-size:1.1em; line-height:1em; padding:3px 0 5px 0; margin:5px 0; }
+ul.sites li a, ul.sites li a:link, ul.sites li a:active, ul.sites li a:visited {text-decoration:none; color:#444;}
+ul.sites li a:hover {color:#4DB930;}
+.list  li{padding:2px 0;}
+
+/** Icons and Buttons **/
+.icon {background-position: 0% 40%; background-repeat: no-repeat; padding:2px 3px 3px 20px; text-decoration:none; z-index:100;}
+.icon-citeulike{background-image: url(../images/citeulike.gif);}
+.icon-cse{background-image: url(../images/cse.gif);}
+.icon-delicious{background-image: url(../images/delicious.gif);}
+.icon-digg{background-image: url(../images/digg.gif);}
+.icon-django{background-image: url(../images/django.gif);}
+.icon-facebook{background-image: url(../images/facebook.gif);}
+.icon-flickr{background-image: url(../images/flickr.gif);}
+.icon-friendfeed{background-image: url(../images/friendfeed.gif);}
+.icon-blogger{background-image: url(../images/blogger.gif);}
+.icon-github{background-image: url(../images/github.gif);}
+.icon-gmail {background-image: url(../images/gmail.gif);}
+.icon-greader{background-image: url(../images/greader.gif);}
+.icon-gtalk{background-image: url(../images/gtalk.gif);}
+.icon-sortfolio{background-image: url(../images/sortfolio.gif);}
+.icon-hn{background-image: url(../images/hn.gif);}
+.icon-likaholix{background-image: url(../images/likaholix.gif);}
+.icon-ln{background-image: url(../images/ln.gif);}
+.icon-orkut{background-image: url(../images/orkut.gif);}
+.icon-reddit{background-image: url(../images/reddit.gif);}
+.icon-skype{background-image: url(../images/skype.gif);}
+.icon-stackoverflow{background-image: url(../images/stackoverflow.gif);}
+.icon-technorati{background-image: url(../images/technorati.gif);}
+.icon-twitter{background-image: url(../images/twitter.gif);}
+.icon-yahoo{background-image: url(../images/yahoo.gif);}
+.icon-elance{background-image: url(../images/elance.gif);}
+.icon-sixtyone{background-image: url(../images/sixtyone.gif);}

@@ -1,0 +1,31 @@
+application: sidm
+version: 1
+runtime: python
+api_version: 1
+
+skip_files:
+- ^(.*/)?app\.yaml
+- ^(.*/)?app\.yml
+- ^(.*/)?index\.yaml
+- ^(.*/)?index\.yml
+- ^(.*/)?#.*#
+- ^(.*/)?.*~
+- ^(.*/)?.*\.py[co]
+- ^(.*/)?.*/RCS/.*
+- ^(.*/)?\..*
+- ^(.*/)?.*\.bak$
+- ^(.*/)?.*\.templ$
+- ^(.*/)?thumbs.db
+- ^(.*/)?.*vagrant/.*
+
+handlers:
+- url: /robots\.txt
+  static_files: output/robots.txt
+  upload: output/robots.txt
+
+- url: (.*)/
+  static_files: output/index.html
+  upload: output/index.html
+
+- url: /
+  static_dir: output
