@@ -1,6 +1,6 @@
-from fabric.api import env, local, task
 import glob
 
+from fabric.api import local, task
 from jinja2 import Environment, PrefixLoader, FileSystemLoader
 
 
@@ -47,10 +47,12 @@ def build():
 @task
 def deploy():
     build()
-    local('appcfg.py --oauth2 update build/')
+    local('./google_appengine/appcfg.py update build/')
+    # local('appcfg.py --oauth2 update build/')
 
 
 @task
 def serve():
     build()
-    local('dev_appserver.py build/')
+    local('./google_appengine/dev_appserver.py build/')
+    # local('dev_appserver.py build/')

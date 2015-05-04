@@ -2,6 +2,8 @@
 -e git+git@github.com:pashinin/fabric.git#egg=fabric-dev
 six
 
+# google-appengine  # Doesn't work with python3, copied to project dir 
+
 Jinja2
 ipdb
 ipython
