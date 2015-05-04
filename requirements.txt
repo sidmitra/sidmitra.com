@@ -1,4 +1,9 @@
-Fabric
+# Fabric
+-e git+git@github.com:pashinin/fabric.git#egg=fabric-dev
+six
+
 Jinja2
 ipdb
 ipython
+pip
+setuptools
