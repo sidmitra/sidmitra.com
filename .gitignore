@@ -1,5 +1,2 @@
 *.py[co]
-.vagrant/*
-Thumbs.db
-output/*
-google_appengine
+google_appengine/*
