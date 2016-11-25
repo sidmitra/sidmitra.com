@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" . }}
+
+<body lang="{{ .Site.Params.lang }}">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            {{ if .Site.Params.gravatar }}
+              <a href="/"><img class="avatar" src="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=50" /></a>
+            {{ else if .Site.Params.avatar }}
+              <a href="/"><img class="avatar" src="/{{ .Site.Params.avatar }}" /></a>
+            {{ end }}
+            <a href="/"><div class="name">{{ .Site.Params.author }}</div></a>
+            <nav>
+                <ul>
+                    <a href="/about/"><li>About</li></a>
+                    <a href="/blog/"><li>Blog</li></a>
+                    <a href="/portfolio/"><li>Portfolio</li></a>
+                    <a href="/research/"><li>Research</li></a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        {{ if .Site.Params.github }}
+            <a href="{{ .Site.Params.github }}" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        {{ end }}
+
+        {{ if .Site.Params.twitter }}
+            <a href="{{ .Site.Params.twitter }}" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        {{ end }}
+
+        {{ if .Site.Params.linkedin }}
+            <a href="{{ .Site.Params.linkedin }}" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        {{ end }}
+
+        {{ if .Site.Params.facebook }}
+            <a href="{{ .Site.Params.facebook }}" target="_blank">
+                <i class="icon ion-social-facebook larger"></i>
+            </a>
+        {{ end }}
+
+        {{ if .Site.Params.soundcloud }}
+            <a href="{{ .Site.Params.soundcloud }}" target="_blank">
+                <i class="icon ion-ios-musical-notes larger"></i>
+            </a>
+        {{ end }}
+
+        {{ if .Site.Params.email }}
+            <a href="mailto:{{ .Site.Params.email }}">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        {{ end }}
+
+        {{ if .Site.RSSLink }}
+            <a href="{{ .Site.RSSLink }}">
+                <i class="icon ion-social-rss larger"></i>
+            </a>
+        {{ end }}
+        </div>
+    </div>
+</section>
