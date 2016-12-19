@@ -9,8 +9,8 @@ I also run a dev studio called  <a target="_blank" href="//www.cloudshuffle.com"
 
 **Note** some of them might not be live anymore or were acquired and rebranded, or might have pivoted to something else. I'm no longer responsible for these.
 
-* iGrowFit -
-* HealthAsaService -
+* iGrowFit - A subscription based fitness marketplace for Singapore.
+* HealthAsaService - An HR and analytics dashboard for health services and event management for corporate employees built with react.js/redux
 * Grapevine Logic - Helps brands launch and run marketing campaigns on Youtube, Instagram
 * Turbotax Personal Pro(CPA Select) - An app for Intuit, that helps you connect with a CPA to get your taxes done. Formerly Teaspiller
 * KnowYourBank - An app to help you get relevant financial information.

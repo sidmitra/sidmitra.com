@@ -6,7 +6,7 @@ languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Siddharth Mitra"
-title = "Siddharth Mitra"
+title = "Homepage"
 pygmentsuseclasses = true
 #disqusshortname = "" # Comment out to disable Disqus.
 pluralizelisttitles = false
@@ -18,7 +18,7 @@ blog = "blog/:slug/"
 [params]
 author = "Siddharth Mitra"
 # gravatar = "" # do not use in the same time as Avatar
-# avatar = "" # path to image in static dir e.g img/avatar.png (do not use in the same time as Gravatar)
+avatar = "frog3d.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as Gravatar)
 cachebuster = true
 dateform = "Nov 24, 2016"
 dateformfull = "Mon Nov 2 2016 20:04:05 CLT"
@@ -27,7 +27,7 @@ highlightjs = true
 initials = "sm" # Displayed on single post page; DEPRECATED in v0.3.0.
 lang = "en"
 faviconfile = "img/favicon.ico"
-extracssfiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
+extracssfiles = [ "" ] # In your `static/css`, add/remove files as necessary.
 
 # social
 email = "sidmitra.del@gmail.com"

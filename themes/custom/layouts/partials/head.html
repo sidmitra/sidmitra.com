@@ -4,10 +4,9 @@
 <title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ if eq $url "/" }}
-  <!-- {{ .Site.Title }} - -->
-  Homepage
+  {{ .Site.Title }}
 {{ else }}
-  {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }} - Siddharth Mitra
+  {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }} - {{ .Site.Params.author }}
 {{ end }}
 </title>
 <link rel="canonical" href="{{ .Permalink }}">

@@ -18,4 +18,4 @@ Email is the best way to get in touch, [sidmitra.del@gmail.com](mailto:sidmitra.
 
 You can also follow me on twitter here [@sidmitra](http://www.twitter.com/sidmitra)
 
-There're more links on the footer to some of my online presence.
+There are more links on the footer to some of my online presence.
