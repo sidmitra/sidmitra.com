@@ -1,3 +1,4 @@
+#author = "Siddharth Mitra"
 baseurl = "https://www.sidmitra.com/"
 builddrafts = true
 canonifyurls = true
@@ -5,11 +6,10 @@ contentdir = "content"
 languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
-author = "Siddharth Mitra"
 title = "Homepage"
 pygmentsuseclasses = true
-#disqusshortname = "" # Comment out to disable Disqus.
 pluralizelisttitles = false
+#disqusshortname = "" # Comment out to disable Disqus.
 
 [permalinks]
 fixed = ":title/"
@@ -17,15 +17,15 @@ blog = "blog/:slug/"
 
 [params]
 author = "Siddharth Mitra"
-# gravatar = "" # do not use in the same time as Avatar
-avatar = "frog3d.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as Gravatar)
+DateForm = "Jan 2, 2006"
+DateFormFull = "January 2, 2006"
+Description = "Personal homepage of Siddharth Mitra"
+
 cachebuster = true
-dateform = "Nov 24, 2016"
-dateformfull = "Mon Nov 2 2016 20:04:05 CLT"
-description = "Personal homepage of Siddharth Mitra"
 highlightjs = true
-initials = "sm" # Displayed on single post page; DEPRECATED in v0.3.0.
 lang = "en"
+
+avatar = "frog3d.jpg" # path to image in static dir e.g img/avatar.png
 faviconfile = "img/favicon.ico"
 extracssfiles = [ "" ] # In your `static/css`, add/remove files as necessary.
 
