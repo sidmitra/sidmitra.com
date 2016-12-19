@@ -1,76 +1,144 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-{{ partial "head.html" . }}
+  <head>
+    {{ partial "meta.html" . }}
+    <base href="{{ .Site.BaseURL }}">
+    <title>
+      {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+      {{ if eq $url "/" }}
+      {{ .Site.Title }}
+      {{ else }}
+      {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }} - {{ .Site.Params.author }}
+      {{ end }}
+    </title>
+    <link rel="canonical" href="{{ .Permalink }}">
 
-<body lang="{{ .Site.Params.lang }}">
+    <!-- HTTPS -->
+    <script type="text/javascript">
+     var baseURL = '{{ .Site.BaseURL }}';
+     var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+     if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+       window.location.protocol = 'https:';
+     }
+    </script>
 
-<section class="header">
-    <div class="container">
+    <!-- CSS -->
+    {{ if .Site.Params.highlightjs }}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    {{ end }}
+
+    {{ if eq true .Site.Params.cachebuster }}
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/pygments.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    {{ range .Site.Params.extracssfiles }}
+    <link rel="stylesheet" href="{{.}}">
+    {{ end }}
+
+    {{ else }}
+
+    <link rel="stylesheet" href="/css/reset.css?{{ .Now.Unix }}">
+    <link rel="stylesheet" href="/css/pygments.css?{{ .Now.Unix }}">
+    <link rel="stylesheet" href="/css/main.css?{{ .Now.Unix }}">
+
+    {{ range .Site.Params.extracssfiles }}
+    <link rel="stylesheet" href="{{.}}?{{ .Now.Unix }}">
+    {{ end }}
+
+    {{ end }}
+
+    <!-- Icon -->
+    <link rel="shortcut icon"
+          {{ if .Site.Params.faviconfile }}
+          href="/{{ .Site.Params.faviconfile }}"
+          {{ else }}
+          href="/img/favicon.ico"
+          {{ end }}
+    >
+
+    <!-- RSS -->
+    {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+
+  <body lang="{{ .Site.Params.lang }}">
+
+    <section class="header">
+      <div class="container">
         <div class="content">
-            {{ if .Site.Params.gravatar }}
-              <a href="/"><img class="avatar" src="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=50" /></a>
-            {{ else if .Site.Params.avatar }}
-              <a href="/"><img class="avatar" src="/{{ .Site.Params.avatar }}" /></a>
-            {{ end }}
-            <a href="/"><div class="name">{{ .Site.Params.author }}</div></a>
-            <nav>
-                <ul>
-                    <a href="/about/"><li>About</li></a>
-                    <a href="/blog/"><li>Blog</li></a>
-                    <a href="/portfolio/"><li>Portfolio</li></a>
-                    <a href="/research/"><li>Research</li></a>
-                </ul>
-            </nav>
+          {{ if .Site.Params.gravatar }}
+          <a href="/"><img class="avatar" src="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=50" /></a>
+          {{ else if .Site.Params.avatar }}
+          <a href="/"><img class="avatar" src="/{{ .Site.Params.avatar }}" /></a>
+          {{ end }}
+          <a href="/"><div class="name">{{ .Site.Params.author }}</div></a>
+          <nav>
+            <ul>
+              <a href="/about/"><li>About</li></a>
+              <a href="/blog/"><li>Blog</li></a>
+              <a href="/portfolio/"><li>Portfolio</li></a>
+              <a href="/research/"><li>Research</li></a>
+            </ul>
+          </nav>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="icons">
-    <div class="container">
+    <section class="icons">
+      <div class="container">
         <div class="content">
 
-        {{ if .Site.Params.github }}
-            <a href="{{ .Site.Params.github }}" target="_blank">
-                <i class="icon ion-social-github"></i>
-            </a>
-        {{ end }}
+          {{ if .Site.Params.github }}
+          <a href="{{ .Site.Params.github }}" target="_blank">
+            <i class="icon ion-social-github"></i>
+          </a>
+          {{ end }}
 
-        {{ if .Site.Params.twitter }}
-            <a href="{{ .Site.Params.twitter }}" target="_blank">
-                <i class="icon ion-social-twitter"></i>
-            </a>
-        {{ end }}
+          {{ if .Site.Params.twitter }}
+          <a href="{{ .Site.Params.twitter }}" target="_blank">
+            <i class="icon ion-social-twitter"></i>
+          </a>
+          {{ end }}
 
-        {{ if .Site.Params.linkedin }}
-            <a href="{{ .Site.Params.linkedin }}" target="_blank">
-                <i class="icon ion-social-linkedin"></i>
-            </a>
-        {{ end }}
+          {{ if .Site.Params.linkedin }}
+          <a href="{{ .Site.Params.linkedin }}" target="_blank">
+            <i class="icon ion-social-linkedin"></i>
+          </a>
+          {{ end }}
 
-        {{ if .Site.Params.facebook }}
-            <a href="{{ .Site.Params.facebook }}" target="_blank">
-                <i class="icon ion-social-facebook larger"></i>
-            </a>
-        {{ end }}
+          {{ if .Site.Params.facebook }}
+          <a href="{{ .Site.Params.facebook }}" target="_blank">
+            <i class="icon ion-social-facebook larger"></i>
+          </a>
+          {{ end }}
 
-        {{ if .Site.Params.soundcloud }}
-            <a href="{{ .Site.Params.soundcloud }}" target="_blank">
-                <i class="icon ion-ios-musical-notes larger"></i>
-            </a>
-        {{ end }}
+          {{ if .Site.Params.soundcloud }}
+          <a href="{{ .Site.Params.soundcloud }}" target="_blank">
+            <i class="icon ion-ios-musical-notes larger"></i>
+          </a>
+          {{ end }}
 
-        {{ if .Site.Params.email }}
-            <a href="mailto:{{ .Site.Params.email }}">
-                <i class="icon ion-ios-email larger"></i>
-            </a>
-        {{ end }}
+          {{ if .Site.Params.email }}
+          <a href="mailto:{{ .Site.Params.email }}">
+            <i class="icon ion-ios-email larger"></i>
+          </a>
+          {{ end }}
 
-        {{ if .Site.RSSLink }}
-            <a href="{{ .Site.RSSLink }}">
-                <i class="icon ion-social-rss larger"></i>
-            </a>
-        {{ end }}
+          {{ if .Site.RSSLink }}
+          <a href="{{ .Site.RSSLink }}">
+            <i class="icon ion-social-rss larger"></i>
+          </a>
+          {{ end }}
         </div>
-    </div>
-</section>
+      </div>
+    </section>

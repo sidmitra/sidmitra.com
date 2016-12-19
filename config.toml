@@ -1,14 +1,14 @@
 #author = "Siddharth Mitra"
 baseurl = "https://www.sidmitra.com/"
-builddrafts = true
-canonifyurls = true
+builddrafts = false
+canonifyurls = false
 contentdir = "content"
 languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
-title = "Homepage"
 pygmentsuseclasses = true
 pluralizelisttitles = false
+title = "Homepage"
 #disqusshortname = "" # Comment out to disable Disqus.
 
 [permalinks]
