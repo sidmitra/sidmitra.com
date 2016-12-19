@@ -1,11 +1,8 @@
 #author = "Siddharth Mitra"
-baseurl = "https://www.sidmitra.com/"
+baseurl = "http://www.sidmitra.com/"
 builddrafts = false
 canonifyurls = false
-contentdir = "content"
 languageCode = "en-US"
-layoutdir = "layouts"
-publishdir = "public"
 pygmentsuseclasses = true
 pluralizelisttitles = false
 title = "Homepage"
