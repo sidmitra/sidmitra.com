@@ -6,7 +6,7 @@ languageCode = "en-US"
 pygmentsuseclasses = true
 pluralizelisttitles = false
 title = "Homepage"
-#disqusshortname = "" # Comment out to disable Disqus.
+disqusShortname = "sidmitra"
 
 [permalinks]
 fixed = ":title/"
