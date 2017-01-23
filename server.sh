@@ -1,1 +1,1 @@
-hugo server --theme=custom --buildDrafts
+hugo server --theme=custom
