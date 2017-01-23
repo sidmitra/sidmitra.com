@@ -63,7 +63,7 @@ So I tried it out and here's how it came out.
 
 ![first-zentangle](/images/blog/2017/zentangle-jan17.jpg)
 
-Ugh! it sucks. I thought it'd be easier and atleast look presentable. Turns out churning out creative work is hard. I tried not to look at the book's example patterns, to avoid copying them inadvertendly. After my first pattern, I couldn't think of what to draw, so I just blindly let me hand do some squiggling. But I did realize one thing. Yo do automatically tend to start focussing on your patterns, and forget whatever it was going in your head before you started. So it kinda worked in that regard. I'm going to keep trying this. Next i'll try to copy some of the basic patterns from the book and try to incorporate them in my next Zentangle.
+Ugh! it sucks. I thought it'd be easier and atleast look presentable. Turns out churning out creative work is hard. I tried not to look at the book's example patterns, to avoid copying them inadvertently. After my first pattern, I couldn't think of what to draw, so I just blindly let me hand do some squiggling. But I did realize one thing. Yo do automatically tend to start focussing on your patterns, and forget whatever it was going in your head before you started. So it kinda worked in that regard. I'm going to keep trying this. Next i'll try to copy some of the basic patterns from the book and try to incorporate them in my next Zentangle.
 
 
 ### Where can I find out more?
