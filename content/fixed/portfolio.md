@@ -26,6 +26,7 @@ I also run a dev studio called  <a target="_blank" href="//www.cloudshuffle.com"
 * [45 Sec](http://45sec.com) - A customer feedback app (Web + Android + iPhone)
 * [FertilityPlanit](http://www.fertilityplanit.com/) - A meeting place for people who are seeking help related to fertility.
 * [Basidia](http//basidia.dk) - A learning management platform.
+* [36Months](www.36months.com) - An online learning platform for personal, social, academic and digital skills.
 * [Emriq](http://www.emriq.com) - A web based medical records platform for small to medium clinics.
 * [Compete Inc](http://compete.com) - Working with the inhouse development team at Compete.com for their internal analytics + segmentation app for Google.
 * [Teaspiller](http://www.teaspiller.com) - An online marketplace for tax experts.
