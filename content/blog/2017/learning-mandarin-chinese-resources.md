@@ -1,59 +1,37 @@
 +++
-date = "2016-12-19T15:14:15-03:00"
-draft = true
-title = "Learning Mandarin Chinese - List of Resources"
+draft = false
+date = "2017-01-28T02:14:15-03:00"
+title = "Learning Mandarin Chinese - Resources"
+tags = ['mandarin',]
 
 +++
 
-
-Podcast
-=======
-
-- http://youngloveplay.blogspot.cl/
-
-- http://www.learnmandarinnow.com/
-
-- http://www.slow-chinese.com/
-
-- https://www.melnyks.com/
+Here's a list of Mandarin learning resources. I'll be updating this list as I find more of them.
 
 
-Videos
-=======
+### Apps
 
-- http://chinese.yabla.com
+- [HelloChinese](http://www.hellochinese.cc/)
+- [ChineseSkill](http://www.chinese-skill.com/cs.html)
 
-- http://video.sina.com.cn/
+
+### Audio
+
+- [Michel Thomas](http://www.michelthomas.com/learn-mandarin-chinese.php)
+- [Glossika](https://glossika.com/)
 
 
 
-Language Exchange
-=================
+### Podcasts
 
-- HelloChinese (Android)
+- [Learn Mandarin Now](http://www.learnmandarinnow.com/)
+- [Slow Chinese](http://www.slow-chinese.com/)
+- [Melnyks](https://www.melnyks.com/)
+- [Young Love Play](http://youngloveplay.blogspot.cl/)
 
-- ChineseSkill(Collection of apps)
 
+### Videos
 
-
-- There are a lot of apps, but serve different needs. It's difficult to find and formulate a study plan.
-- Creating small daily habits
-
-- Reading
-  -- Duolingo style, basic grammar lessons.
-  -- Vocabulary like memrise.
-  -- Simpler News articles to read. Like Nulu.
-
-- Listening
-  -- Small daily news items, also read with a native tongue.
-  -- Clips from podcasts, links to podcasts with small quizes.
-
-- Speaking
-  -- Audio tests like ChineseSkill.
-  -- At some point i want to connect existing users with similar skill levels to google hangout together.
-  -- Can also record audio with members/teachers feedback.
-
-- Writing
-  This one is difficult. Maybe starting with
-  -- Quizes like re-arranging jumbled sentences
-  -- English to Language translation.
+- [Viki TV](http://viki.com)
+- [Yabla](http://chinese.yabla.com)
+- [Sina Video](http://video.sina.com.cn/)
