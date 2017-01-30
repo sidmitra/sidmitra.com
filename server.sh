@@ -1,1 +1,1 @@
-hugo server --theme=custom
+hugo server --theme=custom --watch
