@@ -663,8 +663,7 @@ section.main .content .markdown ul {
 }
 section.main .content .markdown li {
   list-style-type: disc;
-  list-style-position: inside;
-  //text-indent: -2em;
+  list-style-position: outside;
   padding-left: 1em;
 }
 section.main .content .markdown em {

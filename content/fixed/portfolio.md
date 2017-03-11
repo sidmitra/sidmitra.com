@@ -9,12 +9,12 @@ I also run a dev studio called  <a target="_blank" href="//www.cloudshuffle.com"
 
 **Note** some of them might not be live anymore or were acquired and rebranded, or might have pivoted to something else.
 
-* [Moonlite](https://www.moonliteapp.com) - An app for freelancers to manage their projects, payments and contracts.
+* [Moonlite](http://www.moonliteapp.com) - An app for freelancers to manage their projects, payments and contracts.
 * [iGrowFit](https://www.igrowfit.com) - A subscription based fitness marketplace for Singapore.
 * [HealthAsaService](https://www.healthasaservice.co) - An HR and analytics dashboard for health services and event management for corporate employees built with react.js/redux
 * [Grapevine](https://www.grapevinelogic.com) - Helps brands launch and run marketing campaigns on Youtube, Instagram
 * [SAXO Publish](http://publish.saxo.com) - publishing platform where anyone can publish e-books, and soon printed books (print on demand) and online courses.
-* [CPA Select](http://cpaselect.com) - An app for [Intuit],(http://www.intuit.com) that helps you connect with a CPA to get your taxes done. Formerly Teaspiller
+* [CPA Select](http://cpaselect.com) - An app for [Intuit](http://www.intuit.com) that helps you connect with a CPA to get your taxes done. Formerly Teaspiller
 * [KnowYourBank](http://www.knowyourbank.com) - An app to help you get relevant financial information.
 * [HypedSound](http://www.hypedsound.com/) - to showcase all your music profiles in one place.
 * [E-Limu](http://e-limu.org/) - web-app(with an android app) that delivers curriculum content to school kids in Nigeria.
