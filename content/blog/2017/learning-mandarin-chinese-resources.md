@@ -19,8 +19,7 @@ Here's a list of Mandarin learning resources. I'll be updating this list as I fi
 
 - [Michel Thomas](http://www.michelthomas.com/learn-mandarin-chinese.php)
 - [Glossika](https://glossika.com/)
-
-
+- [Learn Chinese by Spotify](https://open.spotify.com/user/spotify/playlist/1MCHFaDzxodOX1tkStGEKj)
 
 ### Podcasts
 
@@ -28,7 +27,8 @@ Here's a list of Mandarin learning resources. I'll be updating this list as I fi
 - [Slow Chinese](http://www.slow-chinese.com/)
 - [Melnyks](https://www.melnyks.com/)
 - [Young Love Play](http://youngloveplay.blogspot.cl/)
-
+- http://www.lizhi.fm/490028/
+- https://www.reddit.com/r/ChineseLanguage/comments/4mnway/mandarin_chinese_podcasts_what_do_you_like_to/
 
 ### Videos
 
