@@ -1,12 +1,16 @@
 #author = "Siddharth Mitra"
-baseurl = "http://www.sidmitra.com/"
-builddrafts = false
-canonifyurls = false
+baseURL = "http://www.sidmitra.com/"
+buildDrafts = true
+canonifyURLs = false
+disqusShortName = "sidmitra"
 languageCode = "en-US"
-pygmentsuseclasses = true
-pluralizelisttitles = false
+pluralizeListTitles = false
+pygmentsUseClasses = true
+theme="custom"
 title = "Homepage"
-disqusShortname = "sidmitra"
+verbose = true
+verboseLog = true
+watch = true
 
 [permalinks]
 fixed = ":title/"
