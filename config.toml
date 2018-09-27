@@ -1,6 +1,6 @@
 #author = "Siddharth Mitra"
 baseURL = "http://www.sidmitra.com/"
-buildDrafts = true
+buildDrafts = false
 canonifyURLs = false
 disqusShortName = "sidmitra"
 languageCode = "en-US"
