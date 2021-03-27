@@ -1,9 +1,9 @@
 +++
 date = "2018-01-01"
 draft = false
-title = "Not yet live"
+title = "Nothing to see here yet."
 tags = []
 +++
 
 
-Nothing to see here yet.
+Nihilists don't blog.
