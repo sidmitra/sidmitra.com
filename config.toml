@@ -31,7 +31,7 @@ faviconfile = "img/favicon.ico"
 extracssfiles = [ "" ] # In your `static/css`, add/remove files as necessary.
 
 # social
-email = "sidmitra.del@gmail.com"
+email = "blog@sidmitra.com"
 github = "//github.com/sidmitra"
 linkedin = "//linkedin.com/in/sidmitra"
 twitter = "//twitter.com/sidmitra"
