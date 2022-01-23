@@ -1,7 +1,7 @@
 +++
+date = "2016-11-24"
 draft = false
 title = "portfolio"
-date = "2016-11-24T20:28:50-03:00"
 +++
 
 

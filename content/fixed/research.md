@@ -1,7 +1,7 @@
 +++
-title = "research"
-date = "2016-11-24T20:28:57-03:00"
+date = "2016-11-24"
 draft = false
+title = "research"
 +++
 
 
