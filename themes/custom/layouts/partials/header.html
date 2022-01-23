@@ -98,47 +98,80 @@
       <div class="container">
         <div class="content">
 
+          <!--
+               {{ if .Site.Params.github }}
+               <a href="{{ .Site.Params.github }}" target="_blank">
+               <i class="icon ion-social-github"></i>
+               </a>
+               {{ end }}
+
+               {{ if .Site.Params.twitter }}
+               <a href="{{ .Site.Params.twitter }}" target="_blank">
+               <i class="icon ion-social-twitter"></i>
+               </a>
+               {{ end }}
+
+               {{ if .Site.Params.linkedin }}
+               <a href="{{ .Site.Params.linkedin }}" target="_blank">
+               <i class="icon ion-social-linkedin"></i>
+               </a>
+               {{ end }}
+
+               {{ if .Site.Params.facebook }}
+               <a href="{{ .Site.Params.facebook }}" target="_blank">
+               <i class="icon ion-social-facebook larger"></i>
+               </a>
+               {{ end }}
+
+               {{ if .Site.Params.soundcloud }}
+               <a href="{{ .Site.Params.soundcloud }}" target="_blank">
+               <i class="icon ion-ios-musical-notes larger"></i>
+               </a>
+               {{ end }}
+
+               {{ if .Site.Params.email }}
+               <a href="mailto:{{ .Site.Params.email }}">
+               <i class="icon ion-ios-email larger"></i>
+               </a>
+               {{ end }}
+
+               {{ if .Site.RSSLink }}
+               <a href="{{ .Site.RSSLink }}">
+               <i class="icon ion-social-rss larger"></i>
+               </a>
+               {{ end }}
+          -->
+
           {{ if .Site.Params.github }}
           <a href="{{ .Site.Params.github }}" target="_blank">
-            <i class="icon ion-social-github"></i>
+            <ion-icon name="logo-github" size="small"></ion-icon>
           </a>
           {{ end }}
 
           {{ if .Site.Params.twitter }}
           <a href="{{ .Site.Params.twitter }}" target="_blank">
-            <i class="icon ion-social-twitter"></i>
+            <ion-icon name="logo-twitter" size="small"></ion-icon>
           </a>
           {{ end }}
 
           {{ if .Site.Params.linkedin }}
           <a href="{{ .Site.Params.linkedin }}" target="_blank">
-            <i class="icon ion-social-linkedin"></i>
-          </a>
-          {{ end }}
-
-          {{ if .Site.Params.facebook }}
-          <a href="{{ .Site.Params.facebook }}" target="_blank">
-            <i class="icon ion-social-facebook larger"></i>
-          </a>
-          {{ end }}
-
-          {{ if .Site.Params.soundcloud }}
-          <a href="{{ .Site.Params.soundcloud }}" target="_blank">
-            <i class="icon ion-ios-musical-notes larger"></i>
+            <ion-icon name="logo-linkedin" size="small"></ion-icon>
           </a>
           {{ end }}
 
           {{ if .Site.Params.email }}
           <a href="mailto:{{ .Site.Params.email }}">
-            <i class="icon ion-ios-email larger"></i>
+            <ion-icon name="mail" size="small"></ion-icon>
           </a>
           {{ end }}
 
           {{ if .Site.RSSLink }}
           <a href="{{ .Site.RSSLink }}">
-            <i class="icon ion-social-rss larger"></i>
+            <ion-icon name="logo-rss" size="small"></ion-icon>
           </a>
           {{ end }}
+
         </div>
       </div>
     </section>

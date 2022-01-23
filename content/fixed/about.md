@@ -4,7 +4,7 @@ draft = false
 title = "About"
 +++
 
-I'm a freelance developer and entrepreneur interested in startups, with considerable experience in designing, building and maintaining web applications.
+I'm a freelance engineer and entrepreneur interested in startups, with considerable experience in designing, building and maintaining web applications.
 
 
 I'm pretty big on learning languages through immersion. I know Spanish, and currently struggling through Mandarin(Taiwan), with the aim to learn the 5 most spoken languages in the world, so I could in theory communicate with billions of people in the world.
@@ -12,8 +12,6 @@ I'm pretty big on learning languages through immersion. I know Spanish, and curr
 
 ### How can I contact you?
 
-Email is the best way to get in touch, [sidmitra.del@gmail.com](mailto:sidmitra.del@gmail.com)
+Email is the best way to get in touch, [blog@sidmitra.com](mailto:blog@sidmitra.com)
 
 You can also follow me on twitter here [@sidmitra](http://www.twitter.com/sidmitra)
-
-There are more links on the footer to some of my online presence.

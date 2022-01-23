@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
+@import url(https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css);
 .dark {
   color: #333333 !important;
 }
@@ -76,9 +74,9 @@ body {
     padding-top: 0 !important;
   }
 }
-.icon {
-  text-rendering: geometricPrecision !important;
-}
+/* .icon {
+   text-rendering: geometricPrecision !important;
+   } */
 section {
   display: -webkit-flex;
   display: -moz-flex;
@@ -324,12 +322,12 @@ section.icons .content a .icon.larger {
   section.icons .content a:hover {
     color: #333333;
   }
-  section.icons .content a .icon {
-    font-size: 18px;
-  }
-  section.icons .content a .icon.larger {
-    font-size: 20px;
-  }
+  /* section.icons .content a .icon {
+     font-size: 18px;
+     }
+     section.icons .content a .icon.larger {
+     font-size: 20px;
+     } */
 }
 section.main .container {
   -webkit-align-items: center;
