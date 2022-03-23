@@ -1,4 +1,3 @@
-#author = "Siddharth Mitra"
 baseURL = "http://www.sidmitra.com/"
 buildDrafts = false
 canonifyURLs = false

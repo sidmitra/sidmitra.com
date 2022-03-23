@@ -60,8 +60,8 @@
     >
 
     <!-- RSS -->
-    {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ with .OutputFormats.Get "RSS" }}
+    <link href='{{ .RelPermalink }}' rel="alternate" type="application/rss+xml"/>
     {{ end }}
 
     <!--[if lt IE 9]>
