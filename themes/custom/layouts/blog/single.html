@@ -13,6 +13,11 @@
                     <div class="reading-time"><div class="middot"></div>{{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</div>
                 </div>
             </div>
+
+            <div class="toc">
+              {{ .TableOfContents }}
+            </div>
+
             <div class="markdown">
                 {{ .Content }}
                 <br>

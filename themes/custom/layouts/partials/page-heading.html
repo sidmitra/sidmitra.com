@@ -2,6 +2,7 @@
 {{ if .Params.heading }}
     {{ .Params.heading }}
 {{ else }}
-    {{ .Title }}
+  <h1>{{ .Title }}</h1>
+  <h2>{{ .Params.subtitle }}<h2>
 {{ end }}
 </div>

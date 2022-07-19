@@ -392,6 +392,11 @@ section.main .content .page-heading {
 section.main .content .front-matter .page-heading {
   margin-bottom: 0;
 }
+section.main .content .front-matter .page-heading h2 {
+  color: #666666;
+  font-size: 1rem;
+  text-transform: none;
+}
 section.main .content .front-matter .meta {
   font-size: 14px;
   color: #666666;
