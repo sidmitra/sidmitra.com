@@ -15,6 +15,10 @@ watch = true
 fixed = ":title/"
 blog = "blog/:slug/"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+
 [params]
 author = "Siddharth Mitra"
 DateForm = "Jan 2, 2006"

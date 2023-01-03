@@ -2,9 +2,8 @@
 date = "2022-07-19"
 draft = false
 title = "Clearing browser DNS cache"
-[taxonomies]
-  category = 'today-i-learnt'
-  tag = 'dns'
+categories = "TIL"
+tags = ["dns"]
 +++
 
 
