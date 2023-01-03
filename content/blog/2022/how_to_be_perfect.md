@@ -1,6 +1,6 @@
 +++
 date = "2022-12-13"
-draft = false
+draft = true
 title = "How to Be Perfect: The Correct Answer to Every Moral Question"
 categories = "Books"
 tags = ["philosophy"]
