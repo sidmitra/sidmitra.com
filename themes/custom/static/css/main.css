@@ -503,6 +503,10 @@ section.main .container .content .post-item .meta {
   text-align: right;
   margin-right: 16px;
 }
+section.main .container .content .post-item > .title {
+  width: 399px;
+  text-overflow: ellipsis;
+}
 section {
   padding: 0 16px;
 }

@@ -1,4 +1,5 @@
 <li class="post-item">
-    <span class="meta">{{ .Date.Format .Site.Params.dateform }}</span>
-    <a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>
+  <span class="meta">{{ .Date.Format .Site.Params.dateform }}</span>
+  <span class="meta">{{ .Params.categories }}</span>
+  <a href="{{ .RelPermalink }}"><span class="title">{{ .Title }}</span></a>
 </li>
