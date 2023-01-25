@@ -35,8 +35,9 @@ extracssfiles = [ "" ] # In your `static/css`, add/remove files as necessary.
 
 # social
 email = "blog@sidmitra.com"
-github = "//github.com/sidmitra"
-linkedin = "//linkedin.com/in/sidmitra"
-twitter = "//twitter.com/sidmitra"
+github = "https://github.com/sidmitra"
+linkedin = "https://linkedin.com/in/sidmitra"
+twitter = "https://twitter.com/sidmitra"
+mastodon = "https://mastodon.social/@sidmitra"
 
 # gatracker = "XYZ"

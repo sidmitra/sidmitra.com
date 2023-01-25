@@ -15,4 +15,4 @@ I'm pretty big on learning languages through immersion techniques. I know Spanis
 
 Email is the best way to get in touch, [blog@sidmitra.com](mailto:blog@sidmitra.com)
 
-You can also follow me on twitter here [@sidmitra](http://www.twitter.com/sidmitra)
+You can also follow me on mastodon here [@mastodon.social@sidmitra](https://mastodon.social/@sidmitra)
