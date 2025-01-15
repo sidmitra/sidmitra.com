@@ -4,14 +4,14 @@ draft = false
 title = "portfolio"
 +++
 
-
 Some of the stuff I've built, or helped build:
 
-**Note:** Links below might not be live anymore or were acquired and rebranded, or might have pivoted to something else entirely.
+**Note:** Links below might not be live anymore, were acquired, rebranded, or might have pivoted to something else entirely.
 
 
-### 2018-2020
-* [Airbase](http://www.airbase.com) - A spend management platform.
+### 2018-2025
+* [Airbase](http://www.airbase.com) - A spend management platform. Acquired by [Paylocity](Paylocity)
+* [Relevize](http://www.relevize.com) - A platform to launch paid campaigns to acquire new leads and track sales pipelines.
 
 ### 2015-2018
 * [FunnelFox](http://www.funnelfox.com) - A productivity tool for sales teams.

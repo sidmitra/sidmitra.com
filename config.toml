@@ -41,3 +41,8 @@ twitter = "https://twitter.com/sidmitra"
 mastodon = "https://mastodon.social/@sidmitra"
 
 # gatracker = "XYZ"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
