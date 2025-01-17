@@ -1,8 +1,10 @@
 +++
 date = "2016-08-22"
 draft = false
-title = "Home"
+title = "About"
+layout = "fixed/single"
 +++
+
 I'm a freelance engineer interested in startups, with extensive experience in designing, building and maintaining web applications.
 
 I used to run a successful web dev studio called [Cloudshuffle](http://www.cloudshuffle.com), which is currently on hiatus.
