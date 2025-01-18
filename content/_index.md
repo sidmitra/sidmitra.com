@@ -9,7 +9,7 @@ I'm a freelance engineer interested in startups, with extensive experience in de
 
 I'm currently interested in researching *Software Complexity and related metrics*; while attempting to overcome the *imposter syndrome*.
 
-I'm pretty big on learning languages through immersion techniques. I know Spanish, and currently struggling through Mandarin(Taiwan), with the aim to learn the 5 most spoken languages in the world. The hope is that i couldm, in theory, communicate with billions of people in the world.
+I'm pretty big on learning languages through immersion techniques. I know Spanish(apart from Hindi, English ofcourse), and currently struggling through Mandarin(Taiwan), with the aim to learn the five most spoken languages in the world. The hope is that i could, in theory, communicate with billions of people in the world.
 
 ### How can I contact you?
 
